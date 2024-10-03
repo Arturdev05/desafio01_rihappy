@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+* {
+    font-family: 'Raleway', sans-serif; /* Fallback para sans-serif */
+
+}
+
+
+
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    width: 2000px;
+}
+
+.banner {
+
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(./assets/image/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    width: 100%;
+    border-bottom: 1px solid #33A8DB;
+
+}
+
+.banner .logo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1,
+h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+    color: white;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 100px;
+}
+
+#course-content {
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+}
+
+#course-content .odules-list .module {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modules-list span {
+    color: #1572B7;
+}
+
+.img {
+    width: 100vh;
+}
+
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    unicode-bidi: isolate;
+    align-items: center;
+    text-align: center;
+}
+
+#course-content,
+#professional-challenges {
+    max-width: 800px;
+    margin: 20px;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module {
+    margin: 10px 0;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#transform-world {
+    height: auto;
+    background-size: cover;
+    background-image: url(./assets/image/woman-code.png);
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    display: flex;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+    padding: 200px;
+}
+
+#professional-challenges {
+    padding: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    width: 100%;
+}
+
+footer {
+
+    border-top: 1px solid #33A8DB;
+    /* Borda superior com a mesma cor e espessura */
+    width: 100%;
+    /* Ocupa toda a largura da tela */
+    text-align: center;
+    /* Centraliza o conteúdo */
+    padding: 20px 0;
+    /* Espaçamento interno */
+    margin-top: 165px;
+    /* Espaçamento acima do footer */
+    background-color: black;
+    /* Cor de fundo para combinar com o resto */
+
+}
